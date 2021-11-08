@@ -4,7 +4,7 @@ import $ from 'jquery'
 let newDieBtn = $('#new-die-btn');
 let rollDieBtn = $('#roll-die-btn');
 let sumDieBtn = $('#sum-die-btn');
-let diceArr: Array<any> = [];
+let diceArr: Array<Die> = [];
 
 // creating container
 let container: HTMLDivElement = document.createElement('div')
